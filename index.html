@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head> 
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Play&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/65fe1399ed.js" crossorigin="anonymous"></script>
+    <title>Magic Card</title>
+  </head>
+  <body>
+    <section class="glass visible">
+      <div class="animation">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_klsv8ygt.json"  background="transparent"  speed="1.7"  style="width: 400px; height: 400px; margin:0 auto;"  loop  autoplay></lottie-player>
+      </div>
+      <h1>What should you do?</h1>
+      <h4>🃏 Select any card and remeber it.Then click on the colum button in which your card is present in.</h4>
+      <h4>🃏 Then cards are shuffled again select the column in which your selected card is present in.</h4>
+      <h4>🃏 Again last time then cards are shuffled again select the column in which your selected card is present in.</h4>
+      <h4>🃏 Now I shall try to figure out the card that you have selected and it will be displayed on the screen.</h4>
+
+      <div class="circle">
+        <a class="internal-link" href="#cards-view"><i class="fas fa-3x fa-arrow-circle-right"></i></a>
+      </div>
+    </section>
+  <img class="main-page-logo" src="images\logo\4_pips.jpg" alt="cards-logo">
+  <h1 class="title">Welcome to Card Magic Game</h1>
+
+  <div class="input-container">
+    <h2 class="name-tag"><b>Enter Your Name&nbsp; :- &nbsp;&nbsp;</b></h2>
+    <input class="input-box" type="text" name="" value="" placeholder="Enter your name">
+  </div>
+  <button class="play-now" type="button" name="button">Play Now</button>
+
+  <div id="cards-view" class="card-view-container">
+    <section class="glass-1 visible">
+      <img class="card-reveal-image visible" src="" alt="card-reveal">
+      <div class="animation-1">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets4.lottiefiles.com/datafiles/vy44vrUTaAO2HC3/data.json" mode="bounce" background="transparent"  speed="1"  style="width: 500px; height: 500px; margin:0 auto;"  loop  autoplay  ></lottie-player>
+      </div>
+      <h1 class="reveal-card">Lets reveal your card </h1>
+      <span class="flip-card-button"><i class="fas fa-3x fa-arrow-circle-right"></i></span>
+      </section>
+    <div class="c1-car-view coloumn">
+      <button id="col-1" class="column-1-button col-button" type="button" name="button">COLUMN 1</button>
+      <img class="c1-card-1 cards " src="" alt="card-img-1">
+      <img class="c1-card-2 cards card-margin" src="" alt="card-img-2">
+      <img class="c1-card-3 cards card-margin" src="" alt="card-img-3">
+      <img class="c1-card-4 cards card-margin" src="" alt="card-img-4">
+      <img class="c1-card-5 cards card-margin" src="" alt="card-img-5">
+      <img class="c1-card-6 cards card-margin" src="" alt="card-img-6">
+      <img class="c1-card-7 cards card-margin" src="" alt="card-img-7">
+    </div>
+    <div class="c2-card-view coloumn">
+      <button id="col-2" class="column-2-button col-button" type="button" name="button">COLUMN 2</button>
+      <img class="c2-card-1 cards" src="" alt="card-img-8">
+      <img class="c2-card-2 cards card-margin" src="" alt="card-img-9">
+      <img class="c2-card-3 cards card-margin" src="" alt="card-img-10">
+      <img class="c2-card-4 cards card-margin" src="" alt="card-img-11">
+      <img class="c2-card-5 cards card-margin" src="" alt="card-img-12">
+      <img class="c2-card-6 cards card-margin" src="" alt="card-img-13">
+      <img class="c2-card-7 cards card-margin" src="" alt="card-img-14">
+    </div>
+    <div class="c3-card-view coloumn">
+      <button id="col-3" class="column-3-button col-button" type="button" name="button">COLUMN 3</button>
+      <img class="c3-card-1 cards " src="" alt="card-img-15">
+      <img class="c3-card-2 cards card-margin" src="" alt="card-img-16">
+      <img class="c3-card-3 cards card-margin" src="" alt="card-img-17">
+      <img class="c3-card-4 cards card-margin" src="" alt="card-img-18">
+      <img class="c3-card-5 cards card-margin" src="" alt="card-img-19">
+      <img class="c3-card-6 cards card-margin" src="" alt="card-img-20">
+      <img class="c3-card-7 cards card-margin" src="" alt="card-img-21">
+    </div>
+  </div>
+
+  <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
